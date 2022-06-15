@@ -1,0 +1,79 @@
+body {
+    background-image: url(../img/fond.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    }
+
+.barre {
+    width: 90%;
+    height: 35px;
+    background-color: #696969;
+    border-radius: 10px;
+    margin-left: 3%;
+    }
+#cercleExit{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-left: 55px;
+    margin-top: -22px;
+    border-radius: 20px;
+    background-color: indianred;
+    }
+#cercleReduce{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-left: 75px;
+    margin-top: -12px;
+    border-radius: 20px;
+    background-color: #ffd700;
+    }
+#cercleBig{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin-left: 95px;
+    margin-top: -12px;
+    border-radius: 20px;
+    background-color: #32CD32;
+    }
+.contenu {
+    background-color: #312a29;
+    border: #696969;
+    border-radius: 1px;
+    width: 90%;
+    height: 700px;
+    margin-left: 3%;
+    margin-top: 3px;
+
+    }
+
+.animate-text { 
+	visibility:hidden;
+	display:inline-block; 
+  animation:fade-in 0.8s ease-in-out 1;
+	animation-fill-mode: forwards;
+    }
+.scroller {
+    width: 101.1%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rebeccapurple green;
+    }
+  .font {
+      font-size: large;
+      font-family: monospace 
+    }
+  .color {
+      background-color: #32CD32;
+    }
+  .logo {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    }
+.mail {
+    display: inline;
+}
